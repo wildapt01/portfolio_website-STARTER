@@ -17,8 +17,7 @@ import {
 const Technologies = () => (
   <Section id="tech">
     <SectionDivider />
-    <br />
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle main>Technologies</SectionTitle>
     <SectionText>
       In my current role, I work with JavaScript, HTML, CSS, jQuery and
       Bootstrap. I have also experience in web development with NodeJS, React,

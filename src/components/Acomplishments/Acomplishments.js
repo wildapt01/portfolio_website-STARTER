@@ -9,8 +9,8 @@ import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
 import { data } from "../../constants/constants";
 
 const Acomplishments = () => (
-  <Section>
-    <SectionTitle>Personnal Acomplishments</SectionTitle>
+  <Section nopadding>
+    <SectionTitle main>Personnal Acomplishments</SectionTitle>
     <Boxes>
       {data.map((card, indx) => (
         <Box key={indx}>

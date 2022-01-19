@@ -65,7 +65,8 @@ const Timeline = () => {
 
   return (
     <Section id="about">
-      <SectionTitle>About Me</SectionTitle>
+      <SectionDivider />
+      <SectionTitle main>About Me</SectionTitle>
       <SectionText>My short bio</SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
